@@ -33,16 +33,14 @@ main {
 .text-line {
     position: relative;
     left: 703px;
-    top: 31px;
-    font-size: 14px;
+    top: 30px;
     animation: transalation 1s;
 }
 
 .text {
-    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-    padding-top: 12px;
+    padding-top: 14px;
     padding-left: 4px;
-    padding-bottom: 11px;
+    padding-bottom: 15px;
     color: black;
 }
 
@@ -59,14 +57,16 @@ main {
 
 #memoria {
     position: relative;
-    left: 404px;
-    top: 44px;
+    left: 403px;
+    top: 30px;
     animation: memoria 1s;
 }
 
 @keyframes opacity {
     0% { opacity: 0 }
     50% { opacity: 0 }
+    60% { opacity: 0.4 }
+    70% { opacity: 0.5 }
     80% { opacity: 0.6 }
     85% { opacity: 0.7 }
     90% { opacity: 0.8 }
@@ -81,15 +81,19 @@ main {
 
 @keyframes memoria {
     from { top: 150px }
-    to { top: 44px }
+    to { top: 30px }
 }
 
 @keyframes memoria-shadow {
     0% { opacity: 0 }
-    30% { opacity: 0.1 }
-    40% { opacity: 0.3 }
-    60% { opacity: 0.6 }
-    80% { opacity: 0.8 }
+    40% { opacity: 0 }
+    65% { opacity: 0.3 }
+    70% { opacity: 0.4 }
+    75% { opacity: 0.5 }
+    80% { opacity: 0.6 }
+    85% { opacity: 0.7 }
+    90% { opacity: 0.8 }
+    95% { opacity: 0.9 }
     100% { opacity: 1 }
 }
 
