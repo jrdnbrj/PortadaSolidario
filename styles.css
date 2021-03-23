@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* body, html {
+    height: 100%;
+    margin: 0;
+} */
+
+body {
+    /* background-image: url('./images/background.png'); */
+}
+
+main {
+    margin: auto;
+    display: block;
+}
+
+#person {
+    /* margin: auto; */
+    position: absolute;
+    display: block;
+    padding: auto;
+    /* background-image: url('./images/person.png'); */
+    /* height: 80%; */
+    /* max-width: 100%; */
+    /* background-attachment: fixed; */
+    /* background-position: 50% 0%; */
+    /* min-height:100%; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+}
+
+#corner {
+    /* margin: auto; */
+    /* display: block; */
+    position: relative;
+    /* display: block; */
+    /* margin-left: auto; */
+    top: 0px;
+    left: 688px;
+    box-shadow: -6px 6px 10px 1px #383838;
+    border-radius: 0px 0px 0px 75px;
+    opacity: 0.9;
+}
+
+#solidario {
+    position: absolute;
+    top: 0px;
+    left: 247px;
+    bottom: 68px;
+}
+
+.text-line {
+    position: relative;
+    left: 703px;
+    top: 31px;
+    font-size: 14px;
+    /* transition: font-size 1s; */
+}
+/* .text-line:hover {
+    font-size: 16px;
+} */
+
+.text {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    padding-top: 12px;
+    padding-left: 4px;
+    padding-bottom: 11px;
+    color: black;
+}
+
+#shadow-memoria {
+    position: relative;
+    left: 672px;
+    top: 71px;
+}
+
+#memoria {
+    position: relative;
+    left: 404px;
+    top: 44px;
+}
