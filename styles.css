@@ -20,6 +20,7 @@ main {
     box-shadow: -6px 6px 10px 1px #383838;
     border-radius: 0px 0px 0px 75px;
     opacity: 0.9;
+    transition: left 1s ease-in-out;
 }
 
 #solidario {
@@ -33,6 +34,7 @@ main {
     left: 703px;
     top: 31px;
     font-size: 14px;
+    animation: transalation 1s;
 }
 
 .text {
@@ -41,6 +43,10 @@ main {
     padding-left: 4px;
     padding-bottom: 11px;
     color: black;
+}
+
+.text:hover {
+    animation: shake 0.3s;
 }
 
 #shadow-memoria {
@@ -53,4 +59,17 @@ main {
     position: relative;
     left: 404px;
     top: 44px;
+}
+
+@keyframes transalation {
+    from { left: 850px }
+    to { left: 703px }
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) }
+    30% { transform: translate(3px, 2px) }
+    50% { transform: translate(-1px, -1px) }
+    70% { transform: translate(3px, 2px) }
+    100% { transform: translate(1px, 1px) }
 }
