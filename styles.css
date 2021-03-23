@@ -20,13 +20,14 @@ main {
     box-shadow: -6px 6px 10px 1px #383838;
     border-radius: 0px 0px 0px 75px;
     opacity: 0.9;
-    transition: left 1s ease-in-out;
+    animation: corner 1s;
 }
 
 #solidario {
     position: relative;
     bottom: 68px;
     left: 247px;
+    animation: opacity 1.2s;
 }
 
 .text-line {
@@ -53,16 +54,47 @@ main {
     position: relative;
     left: 672px;
     top: 71px;
+    animation: memoria-shadow 1s;
 }
 
 #memoria {
     position: relative;
     left: 404px;
     top: 44px;
+    animation: memoria 1s;
+}
+
+@keyframes opacity {
+    0% { opacity: 0 }
+    50% { opacity: 0 }
+    80% { opacity: 0.6 }
+    85% { opacity: 0.7 }
+    90% { opacity: 0.8 }
+    95% { opacity: 0.9 }
+    100% { opacity: 1 }
+}
+
+@keyframes corner {
+    from { top: -300px }
+    to { top: 0px }
+}
+
+@keyframes memoria {
+    from { top: 150px }
+    to { top: 44px }
+}
+
+@keyframes memoria-shadow {
+    0% { opacity: 0 }
+    30% { opacity: 0.1 }
+    40% { opacity: 0.3 }
+    60% { opacity: 0.6 }
+    80% { opacity: 0.8 }
+    100% { opacity: 1 }
 }
 
 @keyframes transalation {
-    from { left: 850px }
+    from { left: 900px }
     to { left: 703px }
 }
 
