@@ -34,7 +34,7 @@ main {
     position: relative;
     left: 703px;
     top: 30px;
-    animation: transalation 1s;
+    /* animation: transalation 1s; */
 }
 
 .text {
@@ -42,6 +42,26 @@ main {
     padding-left: 4px;
     padding-bottom: 15px;
     color: black;
+}
+
+#text-1 {
+    animation: entry 0.6s;
+}
+
+#text-2 {
+    animation: entry 0.7s;
+}
+
+#text-3 {
+    animation: entry 0.8s;
+}
+
+#text-4 {
+    animation: entry 0.9s;
+}
+
+#text-5 {
+    animation: entry 1s;
 }
 
 .text:hover {
@@ -97,7 +117,7 @@ main {
     100% { opacity: 1 }
 }
 
-@keyframes transalation {
+@keyframes entry {
     from { left: 900px }
     to { left: 703px }
 }
